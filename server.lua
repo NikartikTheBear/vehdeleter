@@ -9,7 +9,7 @@ function CarEmpty(car)
   end
   return false --non occupato
 end
-
+--prova modifica
 CreateThread(function()
   for i, cars in pairs(GetAllVehicles()) do 
     if HasVehicleBeenOwnedByPlayer(cars) then 
